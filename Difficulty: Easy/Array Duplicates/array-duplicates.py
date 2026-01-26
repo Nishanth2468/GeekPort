@@ -18,6 +18,7 @@ class Solution:
         
         for i in arr :
             if i in seen :
+                # if i not in duplecates : to avoid repeating duplicates
                 duplecates.append(i)
             else :
                 seen.add(i)
